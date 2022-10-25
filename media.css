@@ -1,0 +1,72 @@
+@media (max-width:700px){
+    .hamburger{
+        display: block;
+    }
+   
+    .navmenu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        background-color: #fff;
+    }
+    nav .navlinks{
+        display: block;
+        margin: 16px 0;
+    }
+    .navmenu.active{
+        left:0;
+    }
+    nav{
+        width:100%
+    }
+    .flexconatiner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .container1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .downcontent{
+        flex-direction: column;
+    }
+    .container1 h1{
+        width: 100%;
+        padding-right: 0;
+        font-size: 45px;
+        
+    }
+    .container1 .content1{
+        width: 100%;
+        padding: 0 0 2em 0;
+    }
+    .container1 .content1 p{
+        line-height: 1.5;
+        padding-top: 1em;
+        font-size: 14px;
+    }
+    
+    .container2{
+        margin: 0;
+        width: 100%;
+    }
+    .container3{
+        flex-direction: column;
+        width: 100%;
+        float: left;
+    }
+    .container3 .li img{
+        width: 50px;
+    }
+    .container3 li{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 1em 0;
+    }
+   
+}
